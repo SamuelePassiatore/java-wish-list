@@ -25,11 +25,8 @@ public class Main {
 		}
 		
 		System.out.println("Ecco la lista dei tuoi desideri:");
-		
-		for (String wish : wishList) {
-			
-			System.out.println("- " + wish);
-		}
+		System.out.println(wishList);
+
 		sc.close();
 	}
 }
