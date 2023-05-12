@@ -14,9 +14,10 @@ public class MainMap {
 			
 			word = word.replaceAll("[^a-zA-Z0-9]", "").toLowerCase();
 
-			if (word.length() == 0) {
+			if (word.isBlank()) {
 				continue;
 			}
+			
 			if (!wordMap.containsKey(word)) {
 				wordMap.put(word, 1);
 			} else {
