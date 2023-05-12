@@ -16,7 +16,7 @@ public class Main {
 			wishList.add(wish);
 			
 			System.out.println("Elementi nella lista dei desideri: " + wishList.size());
-			System.out.println("Vuoi inserire un altro desiderio? (s/n) : ");
+			System.out.println("Vuoi inserire un altro desiderio? (s/n)");
 			String response = sc.nextLine();
 			
 			if(response.equals("n")) {
