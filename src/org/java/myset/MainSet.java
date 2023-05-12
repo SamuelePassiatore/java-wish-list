@@ -10,8 +10,8 @@ public class MainSet {
 		Random random = new Random();
 		Set<Integer> randomNumbers = new HashSet<>();
 
-		while(randomNumbers.size() != 5) {
-			randomNumbers.add(random.nextInt(2,12));
+		while(randomNumbers.size() < 5) {
+			randomNumbers.add(random.nextInt(2,13));
 		}
 
 		System.out.println(randomNumbers);
